@@ -8,14 +8,14 @@
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   overflow: hidden;
-  background: var(--cream);
+  background: #ffffff;
   margin-bottom: 1.5rem;
   transition: box-shadow 0.2s, border-color 0.2s;
 }
 .project-row:hover { border-color: var(--border2); box-shadow: 0 4px 20px rgba(26,22,18,0.07); }
 
 .pr-left {
-  background: var(--cream2);
+  background: var(--cream3);
   border-right: 1px solid var(--border);
   padding: 2rem 1.5rem;
   display: flex; flex-direction: column; gap: 0.85rem;
@@ -78,7 +78,7 @@
 }
 .pr-skill-row span {
   padding: 0.18rem 0.55rem;
-  background: var(--parchment); border: 1px solid var(--border2);
+  background: var(--cream); border: 1px solid var(--border2);
   border-radius: 100px;
   font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink3);
 }

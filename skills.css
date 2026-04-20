@@ -6,7 +6,7 @@
 }
 
 .skill-group {
-  background: var(--cream);
+  background: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   padding: 1.75rem;
@@ -31,7 +31,7 @@
 .sg-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .pill {
   padding: 0.3rem 0.75rem;
-  background: var(--parchment); border: 1px solid var(--border2);
+  background: var(--cream); border: 1px solid var(--border2);
   border-radius: 100px;
   font-family: var(--font-mono); font-size: 0.84rem; color: var(--ink3);
   transition: background 0.15s, color 0.15s, border-color 0.15s;
