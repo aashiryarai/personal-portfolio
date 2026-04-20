@@ -5,20 +5,20 @@
   --cream2:    #e8e2da;
   --cream3:    #ddd7ce;
   --parchment: #f7f3ee;
-  --ink:       #1a1612;
-  --ink2:      #3d3530;
-  --ink3:      #7a6f66;
-  --ink4:      #b0a99f;
-  --accent:    #2c2018;
-  --rust:      #8b3a1e;
-  --sage:      #3a5c44;
-  --slate:     #2d3f52;
+  --ink:       #000000;
+  --ink2:      #000000;
+  --ink3:      #000000;
+  --ink4:      #000000;
+  --accent:    #000000;
+  --rust:      #000000;
+  --sage:      #000000;
+  --slate:     #000000;
   --border:    rgba(26,22,18,0.1);
   --border2:   rgba(26,22,18,0.18);
   --r:         6px;
   --r-lg:      12px;
-  --font-serif:  'Fraunces', Georgia, serif;
-  --font-body:   'Geist', system-ui, sans-serif;
+  --font-serif:  'Roboto Serif', Georgia, serif;
+  --font-body:   'Open Sans', system-ui, sans-serif;
   --font-mono:   'Geist Mono', monospace;
 }
 
@@ -66,7 +66,7 @@ nav ul a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.84rem;
   transition: color 0.18s, background 0.18s;
 }
 nav ul a:hover { color: var(--ink); background: var(--cream2); }
@@ -74,7 +74,7 @@ nav ul a.active { color: var(--ink); font-weight: 500; background: var(--cream2)
 
 /* ── MAIN ── */
 main { flex: 1; }
-.page-main { max-width: 980px; margin: 0 auto; padding: 4rem 2.5rem 5rem; }
+.page-main { max-width: 980px; margin: 0 auto; padding: 4rem 1.25rem 5rem; }
 
 .page-header { margin-bottom: 3.5rem; border-bottom: 1px solid var(--border); padding-bottom: 2rem; }
 .page-header h1 {
@@ -98,13 +98,13 @@ footer {
   padding: 1.25rem 2.5rem;
   text-align: center;
 }
-footer span { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink4); letter-spacing: 0.05em; }
+footer span { font-family: var(--font-mono); font-size: 0.84rem; color: var(--ink4); letter-spacing: 0.05em; }
 
 /* ── RESPONSIVE NAV ── */
 @media (max-width: 640px) {
   nav { padding: 0 1.25rem; }
   .nav-name { font-size: 0.9rem; }
   nav ul { gap: 0; }
-  nav ul a { padding: 0.3rem 0.5rem; font-size: 0.65rem; }
+  nav ul a { padding: 0.3rem 0.5rem; font-size: 0.76rem; }
   .page-main { padding: 2.5rem 1.25rem 4rem; }
 }

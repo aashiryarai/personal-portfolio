@@ -1,5 +1,5 @@
 .home-main {
-  max-width: 980px; margin: 0 auto; padding: 3rem 2.5rem 5rem;
+  max-width: 980px; margin: 0 auto; padding: 3rem 1.25rem 5rem;
 }
 
 /* ── HERO CARD ── */
@@ -46,6 +46,15 @@
   font-weight: 300;
   line-height: 1.75;
   max-width: 440px;
+  margin-bottom: 0.75rem;
+}
+
+.home-meta {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  color: var(--ink3);
+  letter-spacing: 0.04em;
+  margin-top: 0.75rem;
   margin-bottom: 2rem;
 }
 
@@ -54,7 +63,7 @@
 }
 .home-handle {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   color: var(--ink3);
   letter-spacing: 0.04em;
 }
@@ -103,11 +112,11 @@
   font-weight: 400;
   color: var(--ink2);
 }
-.photo-hint { font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink4); }
+.photo-hint { font-family: var(--font-mono); font-size: 0.80rem; color: var(--ink4); }
 
 /* ── STATS ROW ── */
 .home-stats-row {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: flex; justify-content: center;
   gap: 1rem; margin-bottom: 1.5rem;
 }
 .stat-box {
@@ -116,6 +125,7 @@
   border-radius: var(--r-lg);
   padding: 1.25rem 1.5rem;
   display: flex; flex-direction: column; gap: 0.2rem;
+  min-width: 180px;
 }
 .stat-n {
   font-family: var(--font-serif);
@@ -125,7 +135,7 @@
 }
 .stat-l {
   font-family: var(--font-mono);
-  font-size: 0.68rem; color: var(--ink4);
+  font-size: 0.80rem; color: var(--ink4);
   text-transform: uppercase; letter-spacing: 0.08em;
 }
 

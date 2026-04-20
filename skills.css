@@ -33,7 +33,7 @@
   padding: 0.3rem 0.75rem;
   background: var(--parchment); border: 1px solid var(--border2);
   border-radius: 100px;
-  font-family: var(--font-mono); font-size: 0.73rem; color: var(--ink3);
+  font-family: var(--font-mono); font-size: 0.84rem; color: var(--ink3);
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 .pill:hover { background: var(--cream2); color: var(--ink); }
