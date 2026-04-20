@@ -62,7 +62,7 @@
 }
 .exp-org {
   font-family: var(--font-mono);
-  font-size: 0.80rem; color: var(--ink3);
+  font-size: 0.80rem; color: #895d23;
   margin-bottom: 1.25rem; letter-spacing: 0.02em;
 }
 
@@ -74,7 +74,7 @@
   border: 1px solid var(--border);
   border-radius: var(--r);
 }
-.exp-metric { display: flex; flex-direction: column; gap: 0.1rem; }
+.exp-metric { display: flex; flex-direction: column; gap: 0.1rem; align-items: center; }
 .exp-metric span {
   font-family: var(--font-serif);
   font-size: 1.5rem; font-weight: 400;
@@ -87,6 +87,10 @@
   text-transform: uppercase; letter-spacing: 0.08em;
 }
 .exp-metric.accent span { color: var(--rust); }
+
+.exp-body-text {
+  font-size: 0.95rem; color: var(--ink2); line-height: 1.75; font-weight: 300;
+}
 
 .exp-card-body ul {
   list-style: none; margin-bottom: 1.5rem;
