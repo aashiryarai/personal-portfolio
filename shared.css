@@ -38,8 +38,9 @@ body {
 /* ── NAV ── */
 nav {
   position: sticky; top: 0; z-index: 50;
-  background: var(--parchment);
+  background: var(--cream2);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(26,22,18,0.06);
   padding: 0 2.5rem;
   display: flex; align-items: center; justify-content: space-between;
   height: 58px;
@@ -69,8 +70,8 @@ nav ul a {
   font-size: 0.84rem;
   transition: color 0.18s, background 0.18s;
 }
-nav ul a:hover { color: var(--ink); background: var(--cream2); }
-nav ul a.active { color: var(--ink); font-weight: 500; background: var(--cream2); }
+nav ul a:hover { color: var(--ink); background: var(--cream); }
+nav ul a.active { color: var(--ink); font-weight: 500; background: var(--cream); }
 
 /* ── MAIN ── */
 main { flex: 1; }
