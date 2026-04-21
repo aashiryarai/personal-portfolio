@@ -101,7 +101,7 @@
   font-weight: 300;
 }
 .exp-card-body li::before {
-  content: '—'; position: absolute; left: 0;
+  content: '▪'; position: absolute; left: 0;
   color: var(--ink4); font-size: 0.80rem; top: 0.5rem; line-height: 1;
 }
 
